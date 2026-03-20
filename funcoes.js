@@ -3,8 +3,16 @@ x = "oi";
 console.log(x);
 
 
-function imprimeTexte(texto){
-
+function imprimeTexto(texto){
+console.log(texto);
 }
 
-imprimetexto("oi")
+imprimeTexto("oi mundo!");
+imprimeTexto(soma());
+
+
+function soma(){
+    return = 2 + 2;
+}
+
+console.log(soma());
